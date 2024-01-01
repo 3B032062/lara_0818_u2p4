@@ -1,7 +1,6 @@
-       @extends('layouts.master')
-       @section('title','Clean Blog-Home')
-       @section('contnet')
-
+@extends('layouts.master')
+@section('title','Clean Blog-Home')
+@section('content')
         <!-- Page Header-->
         <header class="masthead" style="background-image: url('{{assert('assets/img/home-bg.jpg')}}')">
             <div class="container position-relative px-4 px-lg-5">
@@ -77,4 +76,4 @@
                 </div>
             </div>
         </div>
-       @endsection
+@endsection
